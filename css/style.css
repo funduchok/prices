@@ -8,6 +8,7 @@ ul {
 ul li {
     list-style: none;
     margin: 10px 0;
+    word-break: break-all;
 }
 
 .red-text {
@@ -54,6 +55,10 @@ ul li {
     width: 100%;
     max-width: 100%;
 }
+.resp-tab td {
+    word-break: break-all;
+}
+
 .resp-tab th, .resp-tab td {
     padding: 10px 20px;
     font-size: 13px;
@@ -100,7 +105,7 @@ ul li {
         margin: 0 -1px -1px 0;
         padding-top: 35px;
         position: relative;
-        width: 50%;
+        width: 100%;
     }
     .resp-tab td span {
         display: block;
