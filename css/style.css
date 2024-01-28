@@ -76,7 +76,7 @@ ul li {
     text-align: center;   
 }
 .resp-tab tr:nth-child(even) {
-    background: #edf7ff;
+    background: #c2db67;
 }
 .resp-tab td span {
     background: #337AB7;
