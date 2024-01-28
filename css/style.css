@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.red-text {
+    color: red;
+}
+
+.youtube-icon {
+    width: 28px;
+    vertical-align: bottom;
+}
+
+.container {
+    max-width: 1080px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .main-title {
+    font-size: 40px;
+    color: red;
+    padding: 6px 0;
+}
+
+.price-list_title {
+    font-size: 20px;
+    color: red;
+    background-color: #19ff00;
+    padding: 4px 4px;
+}
+
+/* Таблица */
+.resp-tab {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+}
+.resp-tab th, .resp-tab td {
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    font-family: Verdana, sans-serif;   
+    border: 1px solid #337AB7;
+    vertical-align: top;
+}
+.resp-tab th {
+    color: #FFF;
+    background: #337AB7;
+    font-weight: bold;
+    border: 1px solid #1a4a73;   
+    text-transform: uppercase;   
+    text-align: center;   
+}
+.resp-tab tr:nth-child(even) {
+    background: #edf7ff;
+}
+.resp-tab td span {
+    background: #337AB7;
+    color: #FFF;
+    display: none;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;   
+    text-transform: uppercase;       
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+@media(max-width: 768px) {
+    .resp-tab thead {
+        display: none;
+    }
+    .resp-tab tr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .resp-tab td {
+        margin: 0 -1px -1px 0;
+        padding-top: 35px;
+        position: relative;
+        width: 50%;
+    }
+    .resp-tab td span {
+        display: block;
+    }
+}
+@media (max-width: 666px) {
+    .header .header-inner {
+        justify-content: center;
+    }
+    .header .main-title {
+        font-size: 32px;
+    }
+  }
+
+@media(max-width: 480px) {
+    .resp-tab td {
+        width: 100%;
+    }
+}
+
+
+
